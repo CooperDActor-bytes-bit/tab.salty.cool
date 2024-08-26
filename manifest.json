@@ -1,0 +1,23 @@
+{
+   "background": {
+      "service_worker": "sw.js"
+   },
+   "chrome_url_overrides": {
+      "newtab": "newtab-init.html"
+   },
+   "description": "Give a clean and modern look to your new tab page.",
+   "host_permissions": [ "*://ultab.space/*", "*://www.google.com/complete/search/*" ],
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "64": "icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk5K0Ry4sj8p6EmTyAjqntu9yH1l7Y319PTl2XJ3CFR9gaLPGtaQsIP1SI+55bOtwJpn86dxrW0/xW4l5pt/46J7FM2hV7pR2jNyVejEAGJT0A2yTzeVWbnLMSxvLXiqmL8MOq6G5g8wTwohkZS8oM/N6G6OBxUZoxJc/RYHdO2hu3xCOYkCWvQXIUtkJ44wV1sAnFuCVHgqngNdPhKS99q8FDh3M1bXfdn6nZ15THKZ98mF7vfIBwM8DoXobsA27/t23GR3h8GCpBpQ+cwbMKX2MEZ0ku9Lj69Bl14NnnrUWixOPN1eK+RCSw+pZnNxJtopT/eWBHmWE4Xn/NcJ01wIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "Ultab - New Tab Page",
+   "offline_enabled": true,
+   "permissions": [ "storage", "unlimitedStorage", "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.6"
+}
